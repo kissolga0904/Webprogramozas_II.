@@ -1,0 +1,57 @@
+body{
+    background-image: linear-gradient(to bottom right, red, yellow);
+}
+.header {
+    padding: 30px; 
+    text-align: center; 
+    background-color: white;
+    color: black; 
+}
+.navbar {
+    overflow: hidden; 
+    background-color: #333; 
+}
+.navbar a {
+    float: left; 
+    display: block; 
+    color: white; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+}  
+ 
+.navbar a.right {
+    float: right; 
+}
+  
+  
+.navbar a:hover {
+    background-color: red; 
+    color: black; 
+}
+.kereses {
+    float: right;
+    color:red;
+    overflow: hidden; 
+    display: block; 
+    text-align: center; 
+    padding: 14px 20px; 
+    text-decoration: none; 
+}
+.tartalom{
+min-height: 65vh;
+padding-top:10px;
+padding-left:20%;
+padding-right:25%;
+padding-bottom:50px;
+
+}
+
+.header h1{
+    margin-bottom:10px; 
+    padding-top: 10px;
+    font-family: inherit;
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px orange, 0 0 5px red;
+}
+

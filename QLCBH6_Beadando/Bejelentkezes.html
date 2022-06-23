@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bejelentkezés</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="content-style-type" content="text/css">
+	<link rel="stylesheet" type="text/css" href="BejelentkezesStyle.css">
+</head>
+<body>
+<div class="header">
+    <h1>Üdvözlöm! Az oldalon autókat regisztrálhat, majd hozzáadhat tulajdonságokat a profiljához. </h1>
+    <p1>Készítette: Kiss Olga, webprogramozás II. tantárgy teljesítése céljából</p1>
+  </div>
+<div class = "bejelentkezes">
+    <h1>Bejelentkezés</h1>
+	<form action="Bejelentkezes.php" method="post"><table>
+		<tr><td>Felhasználónév: </td><td><input type="text" name="username" pattern="[A-Z a-z 0-9]*" required size="15"></td></tr>
+		<tr><td>Jelszó: </td><td><input type="password" name="passwd" pattern="[A-Z a-z 0-9]*" required size="15"></td></tr>
+		<tr style="text-align:right;"><td><a href='RegisztraciosUrlap.php'><input type='button' value='Regisztráció' name='reg'></a></td>
+                <td><input type="submit" value="Elküld" name="send"></td></tr>
+	</table></form>
+</div>
+</body>
+</html>
